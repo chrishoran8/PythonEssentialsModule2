@@ -28,6 +28,7 @@ print("  *   *   "*2)
 print("  *****   "*2)
 
 #operators
+#bullet 1 and 2
 john = 3
 mary = 5
 adam = 6
@@ -40,3 +41,7 @@ total_apples = john+adam+mary
 
 #bullet 5
 print(total_apples)
+
+#average
+appleAverage = (john + mary + adam) // 3
+print(appleAverage)
