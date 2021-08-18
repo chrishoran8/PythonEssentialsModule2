@@ -26,3 +26,17 @@ print("***   *** "*2)
 print("  *   *   "*2)
 print("  *   *   "*2)
 print("  *****   "*2)
+
+#operators
+john = 3
+mary = 5
+adam = 6
+
+#bullet 3
+print(john,mary,adam,sep=",")
+
+#bullet 4
+total_apples = john+adam+mary
+
+#bullet 5
+print(total_apples)
