@@ -60,3 +60,7 @@ kilometers_to_miles = kilometers/1.61
 print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers") # print statement
 print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
 
+#maths formula lab 
+x =  -1 #normal assignment
+y=(3 * x**3) - (2 * x**2) + (3 * x) -1 # converstion of maths to python 
+print("y =", float(y))
