@@ -64,3 +64,13 @@ print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
 x =  -1 #normal assignment
 y=(3 * x**3) - (2 * x**2) + (3 * x) -1 # converstion of maths to python 
 print("y =", float(y))
+
+#SImple input output with casting
+valueA = float(input("Value A Please? "))
+valueB = float(input("Value B Please? "))
+
+print(str(valueA+valueB))# output the result of addition here
+print(str(valueA-valueB))# output the result of subtraction here
+print(str(valueA*valueB))# output the result of multiplication here
+print(str(valueA/valueB))# output the result of division here
+print("\nThat's all, folks!")
