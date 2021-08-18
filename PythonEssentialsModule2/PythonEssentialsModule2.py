@@ -74,3 +74,9 @@ print(str(valueA-valueB))# output the result of subtraction here
 print(str(valueA*valueB))# output the result of multiplication here
 print(str(valueA/valueB))# output the result of division here
 print("\nThat's all, folks!")
+
+
+#recipricol problem
+x = float(input("Enter value for x: "))
+y = 1/(x+1/(x+1/(x+1/(x))))
+print("y =", y)
