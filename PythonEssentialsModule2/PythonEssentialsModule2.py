@@ -80,3 +80,17 @@ print("\nThat's all, folks!")
 x = float(input("Enter value for x: "))
 y = 1/(x+1/(x+1/(x+1/(x))))
 print("y =", y)
+
+#hours minutes days modulo question
+hour = int(input("Starting time (hours): ")) #receive 3 inputs
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+#example input 2(hours) 20(mins) 50(dura)
+
+totalOriginalMins = (60 * hour) + mins #get original total minutes less dura:  140 mins
+#print(totalOriginalMins) #test to make sure variable computes number of mins
+totalNewMins = totalOriginalMins + dura #add dura to get new total of: 190 mins
+#print(totalNewMins) #test to make sure total mins is correct
+newHours = (int(totalNewMins/60)%24) #divide totalNewMins by 60 to get the new hours. Mod it with 24 so it removes longer than 24 hours
+newMins = (mins+dura)%60 #to get the new mins, add the mins and dura together and mod it by 60 so it remvoes longer than 60 mins
+print(newHours,newMins,sep=":") #output
